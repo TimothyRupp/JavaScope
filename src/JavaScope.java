@@ -28,7 +28,7 @@ public class JavaScope {
 
         System.out.printf("%nlocal x on entering method useLocalVariable is %d%n" , x);
         ++x; // modify local variable x
-        System.out.printf("%nlocal x before exiting method useLocalVariable is %d%n" , x);
+        System.out.printf("local x before exiting method useLocalVariable is %d%n" , x);
     }
 
     //modify class Scope's field x during each call
